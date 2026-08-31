@@ -1,0 +1,45 @@
+import { NFTItem } from '../types';
+
+export interface FragmentGiftPrice {
+  slug: string;
+  floorPriceTon: number | null;
+  currency: 'TON';
+  sourceUrl: string;
+  fetchedAt: string;
+}
+
+// Реальные флор-цены с публичных страниц fragment.com (без авторизации).
+// Бэкенд кэширует ответ на 10 минут, так что дёргать можно свободно.
+export async function fetchFragmentPrices(): Promise<FragmentGiftPrice[]> {
+  const response = await fetch('/api/fragment/prices');
+  if (!response.ok) throw new Error(`Fragment prices failed: ${response.status}`);
+  return response.json();
+}
+
+export async function fetchTelegramGifts(limit: number = 50, offset: number = 0, collection: string = "EQCE80Aln8YfldnQLwWMvOfloLGgmPY0eGDJz9ufG3gRui3D"): Promise<NFTItem[]> {
+  try {
+    const response = await fetch(`/api/gifts?limit=${limit}&offset=${offset}&collection=${collection}`);
+    
+    if (!response.ok) {
+      if (response.status === 429) {
+        throw new Error("Rate limit exceeded. Please try again later.");
+      }
+      let errMsg = response.statusText;
+      try {
+        const errData = await response.json();
+        if (errData && errData.error) {
+          errMsg = errData.error;
+        }
+      } catch (e) {
+        // Ignore json parse error
+      }
+      throw new Error(`Failed to fetch: ${errMsg}`);
+    }
+    
+    const data = await response.json();
+    return data.nft_items || [];
+  } catch (error) {
+    console.error("Error fetching Telegram Gifts:", error);
+    throw error;
+  }
+}

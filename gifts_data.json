@@ -1,0 +1,145 @@
+[
+  {
+    "id": "1",
+    "name": "Homemade Cake",
+    "slug": "homemadecake",
+    "rarity": "Common",
+    "description": "Домашний бисквит со свечкой — один из первых подарков, доступных для апгрейда в коллекционный NFT. Простой, массовый, хороший старт для коллекции.",
+    "floor_price_gram": 8,
+    "image_url": "https://fragment.com/file/gifts/homemadecake/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "2",
+    "name": "Spiced Wine",
+    "slug": "spicedwine",
+    "rarity": "Common",
+    "description": "Кубок глинтвейна с узором инея. Сезонный подарок, стабильно держится в нижнем ценовом сегменте из-за большого тиража.",
+    "floor_price_gram": 6,
+    "image_url": "https://fragment.com/file/gifts/spicedwine/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "3",
+    "name": "Lol Pop",
+    "slug": "lolpop",
+    "rarity": "Common",
+    "description": "Леденец на палочке в фирменной обёртке. Один из самых доступных подарков в каталоге Telegram.",
+    "floor_price_gram": 5,
+    "image_url": "https://fragment.com/file/gifts/lolpop/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "4",
+    "name": "Kissed Frog",
+    "slug": "kissedfrog",
+    "rarity": "Rare",
+    "description": "Лягушка из сказки про поцелуй принцессы. Модели и фоны сильно влияют на цену — редкие комбинации уходят в разы дороже флора.",
+    "floor_price_gram": 45,
+    "image_url": "https://fragment.com/file/gifts/kissedfrog/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "5",
+    "name": "Diamond Ring",
+    "slug": "diamondring",
+    "rarity": "Rare",
+    "description": "Кольцо с бриллиантом — символ помолвки в цифровом формате. Стабильный спрос благодаря узнаваемому визуалу.",
+    "floor_price_gram": 60,
+    "image_url": "https://fragment.com/file/gifts/diamondring/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "6",
+    "name": "Hex Pot",
+    "slug": "hexpot",
+    "rarity": "Rare",
+    "description": "Котелок с зельем в мистическом стиле. Известен за счёт крупных Lottie-анимаций варки зелья.",
+    "floor_price_gram": 55,
+    "image_url": "https://fragment.com/file/gifts/hexpot/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "7",
+    "name": "Gem Signet",
+    "slug": "gemsignet",
+    "rarity": "Epic",
+    "description": "Перстень-печатка с драгоценным камнем. Одна из коллекций с наибольшим ростом капитализации с момента запуска.",
+    "floor_price_gram": 180,
+    "image_url": "https://fragment.com/file/gifts/gemsignet/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "8",
+    "name": "Eternal Rose",
+    "slug": "eternalrose",
+    "rarity": "Epic",
+    "description": "Роза в стеклянной колбе, не увядающая никогда. Популярна как подарок на годовщины и признания.",
+    "floor_price_gram": 150,
+    "image_url": "https://fragment.com/file/gifts/eternalrose/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "9",
+    "name": "Heroic Helmet",
+    "slug": "heroichelmet",
+    "rarity": "Epic",
+    "description": "Шлем героя с гравировкой. Один из подарков с наиболее выраженной сезонной волатильностью цены.",
+    "floor_price_gram": 210,
+    "image_url": "https://fragment.com/file/gifts/heroichelmet/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "10",
+    "name": "Precious Peach",
+    "slug": "preciouspeach",
+    "rarity": "Legendary",
+    "description": "Персик с золотым отливом — один из самых узнаваемых редких подарков, известен резкими скачками флора при выходе новых редких моделей.",
+    "floor_price_gram": 700,
+    "image_url": "https://fragment.com/file/gifts/preciouspeach/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "11",
+    "name": "Heart Locket",
+    "slug": "heartlocket",
+    "rarity": "Legendary",
+    "description": "Медальон-сердце с гравировкой внутри. Одна из премиальных коллекций, крупные сделки фиксировались на уровне нескольких тысяч долларов.",
+    "floor_price_gram": 850,
+    "image_url": "https://fragment.com/file/gifts/heartlocket/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "12",
+    "name": "Durov's Cap",
+    "slug": "durovscap",
+    "rarity": "Legendary",
+    "description": "Кепка, отсылающая к образу основателя Telegram. Тираж 5000 штук, стабильно входит в топ дорогих подарков платформы.",
+    "floor_price_gram": 480,
+    "image_url": "https://fragment.com/file/gifts/durovscap/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  },
+  {
+    "id": "13",
+    "name": "Plush Pepe",
+    "slug": "plushpepe",
+    "rarity": "Mythic",
+    "description": "Плюшевая лягушка — самый культовый и дорогой подарок в истории Telegram. Тираж всего 3000 штук, отдельные редкие экземпляры продавались за десятки тысяч долларов.",
+    "floor_price_gram": 5100,
+    "image_url": "https://fragment.com/file/gifts/plushpepe/thumb.webp",
+    "animation_url": "",
+    "lottie_url": ""
+  }
+]
